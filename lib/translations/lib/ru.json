@@ -1,6 +1,5 @@
 {
   "templates.email.greeting": "Здравствуйте, USER_NAME,",
-  "templates.email.signature": "Администрация DemocracyOS.",
 
   "templates.welcome-email.subject": "Добро пожаловать!",
   "templates.welcome-email.body": "Пожалуйста <a href=\"VALIDATE_MAIL_URL\"> нажмите сюда </a> чтобы подтвердить адрес Вашей электронной почты.",

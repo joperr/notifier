@@ -1,6 +1,5 @@
 {
   "templates.email.greeting": "Olá, USER_NAME,",
-  "templates.email.signature": "Time - DemocracyOS.",
 
   "templates.welcome-email.subject": "Bem-vindo(a) ao DemocracyOS!",
   "templates.welcome-email.body": "Por favor <a href=\"VALIDATE_MAIL_URL\">clique aqui</a> para validar seu endereço de e-mail.",

@@ -14,15 +14,23 @@ var defaults = {
   mongoUrl: 'mongodb://localhost/DemocracyOS-dev',
   collection: 'notifierJobs',
   mandrillToken: 'fake-mandrill-token',
+  organizationEmail: 'noreply@democracyos.org',
+  organizationName: 'The DemocracyOS team'
 }
 
 var exports = module.exports = function startNotifier(opts, callback) {
   var mongoUrl = opts.mongoUrl || defaults.mongoUrl
   var collection = opts.collection || defaults.collection
   var mandrillToken = opts.mandrillToken || defaults.mandrillToken
+  var organizationName = opts.organizationName || defaults.organizationName
+  var organizationEmail = opts.organizationEmail || defaults.organizationEmail
 
   agenda = agenda({db: {address: mongoUrl, collection: collection} })
-  transports = transports({mandrillToken: mandrillToken})
+  transports = transports({
+    mandrillToken: mandrillToken,
+    organizationEmail: organizationEmail,
+    organizationName: organizationName
+  })
 
   agenda.purge(function (err) {
     if (err) return callback && callback(err)
