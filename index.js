@@ -9,8 +9,8 @@ var log = require('debug')('democracyos:notifier')
 var defaultOpts = {
   mongoUrl: 'mongodb://localhost/DemocracyOS-dev',
   collection: 'notifierJobs',
-  organizationName: 'noreply@democracyos.org',
-  organizationEmail: 'The DemocracyOS team',
+  organizationName: 'noreply@pinamartransparente.com',
+  organizationEmail: 'Pinamar Transparente - Bloque Cambiemos',
   mailer: {
     service: '',
     auth: {
