@@ -1,10 +1,10 @@
 {
   "templates.email.greeting": "Hola, USER_NAME,",
-  "templates.email.signature": "Pinamar Transparente - Bloque Cambiemos",
+  "templates.email.signature": "Concejo Vecinal de Seguridad - Municipalidad de Pinamar",
 
-  "templates.welcome-email.subject": "Bienvenido a PinamarTransparente! Una herramienta del Bloque Cambiemos",
+  "templates.welcome-email.subject": "Bienvenido al Concejo Vecinal de Seguridad! Una herramienta del para ayudar a la seguridad de nuestra ciudad",
   "templates.welcome-email.body": "Por favor <a href=\"VALIDATE_MAIL_URL\">click aqui</a> para validar tu correo",
-  "templates.welcome-email.ps": "PD: En caso de que no te hayas registrado en PinamarTransparente.com podes ignorar este correo.",
+  "templates.welcome-email.ps": "PD: En caso de que no te hayas registrado al Concejo Vecinal de Seguridad podes ignorar este correo.",
 
   "templates.reset-password.subject": "Solicitud de reseteo de clave",
   "templates.reset-password.body": "Por favor <a href=\"RESET_PASSWORD_URL\">click aqui</a> para resetear tu clave de acceso.",
