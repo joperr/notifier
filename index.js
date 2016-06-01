@@ -9,8 +9,8 @@ var log = require('debug')('democracyos:notifier')
 var defaultOpts = {
   mongoUrl: 'mongodb://localhost/DemocracyOS-dev',
   collection: 'notifierJobs',
-  organizationName: 'noreply@pinamartransparente.com',
-  organizationEmail: 'Pinamar Transparente - Bloque Cambiemos',
+  organizationName: 'noreply@pinamar.gov.ar',
+  organizationEmail: 'Concejo Vecinal de Seguridad - Municipalidad de Pinamar',
   mailer: {
     service: '',
     auth: {
