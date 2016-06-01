@@ -2,7 +2,7 @@
   "templates.email.greeting": "Hola, USER_NAME,",
   "templates.email.signature": "Concejo Vecinal de Seguridad - Municipalidad de Pinamar",
 
-  "templates.welcome-email.subject": "Bienvenido al Concejo Vecinal de Seguridad! Una herramienta del para ayudar a la seguridad de nuestra ciudad",
+  "templates.welcome-email.subject": "Bienvenido al Concejo Vecinal de Seguridad! Una herramienta para ayudar a la seguridad de nuestra ciudad",
   "templates.welcome-email.body": "Por favor <a href=\"VALIDATE_MAIL_URL\">click aqui</a> para validar tu correo",
   "templates.welcome-email.ps": "PD: En caso de que no te hayas registrado al Concejo Vecinal de Seguridad podes ignorar este correo.",
 
